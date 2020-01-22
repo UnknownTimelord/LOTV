@@ -1,1 +1,6 @@
 Passive: Perform an AOE attack to a target below 5/10/25/33/50% Health
+Projectile Fire an arrow that splits in two for every second it is in the air 
+
+
+
+
