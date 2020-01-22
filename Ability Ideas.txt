@@ -1,6 +1,9 @@
 Passive: Perform an AOE attack to a target below 5/10/25/33/50% Health
+<<<<<<< HEAD
 Projectile Fire an arrow that splits in two for every second it is in the air 
 
 
 
 
+=======
+>>>>>>> 13181d74b3c97e76528b97366db381bc5e1a2425
