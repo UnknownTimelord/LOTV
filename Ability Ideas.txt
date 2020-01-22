@@ -1,1 +1,0 @@
-Passive: Perform an AOE attack to a target below 5/10/25/33/50% Health
