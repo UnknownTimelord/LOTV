@@ -34,14 +34,17 @@ public class PlayerMovement : MonoBehaviour
 		if(isGrounded && velocity.y < 0)
 		{
 			velocity.y = -2f;
-			if(Input.GetKey (KeyCode.LeftShift))
+			if (Input.GetKey(KeyCode.W))
 			{
-				speed = walkSpeed * sprintSpeed;
+				if (Input.GetKey(KeyCode.LeftShift))
+				{
+					speed = walkSpeed * sprintSpeed;
+				}
 			}
 			else
-			{
+            {
 				speed = walkSpeed;
-			}
+            }			
 		}
 		
         float x = Input.GetAxis("Horizontal");
